@@ -1,6 +1,7 @@
 # RANSAC-based-Image-Stitching
 Discover Python's RANSAC-based Image Stitching project for seamless panoramas. Explore robust stitching algorithms for efficient image fusion. Dive into computer vision with practical Python implementation.
 
+
 **Process of making the panorama with the use of an affine transformation:**
 1. **Preprocessing** Load both images and convert to grayscale.
 
@@ -18,6 +19,7 @@ Discover Python's RANSAC-based Image Stitching project for seamless panoramas. E
 each image. This tends to produce less artifacts than taking the average of warped images. To create a colour mosaic, apply the same compositing step to each of the colour channels separately.
 
 
+
 **Process of creating a panorama with a homography transformation:**
 1. Using the RANSAC-based homography code above, generate the mosaic using the given image pair and **display the colour mosaic result to the screen**.
   
@@ -25,6 +27,8 @@ each image. This tends to produce less artifacts than taking the average of warp
 
 
 **NOTES:**
+
 **When running the code**: Modify the paths when reading the images depending on the location of the image path.
+
 **Images**: Unstitched images are located in a directory named "Unstitched Images", and the stitched images or the final outputs, are within the ipynb file which can be opened using either Google Colab or Jupyter notebook (I used the latter).
 
